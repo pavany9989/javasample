@@ -30,7 +30,7 @@ public class LoginServlet extends HttpServlet {
     	
     		try{
     			Class.forName("com.mysql.jdbc.Driver");
-    			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/upssample","root","pavan");
+    			con = DriverManager.getConnection("jdbc:mysql://192.168.1.17:3306/upssample","root","");
     		} catch(Exception e) {
     			e.printStackTrace();
     		}
