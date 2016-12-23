@@ -24,5 +24,21 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/xampp/tomcat/lib/servlet-api.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/ypava/Downloads/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ypava/.m2/repository/org/springframework/spring-test/4.2.2.RELEASE/spring-test-4.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+			<attribute name="maven.groupId" value="org.springframework"/>
+			<attribute name="maven.artifactId" value="spring-test"/>
+			<attribute name="maven.version" value="4.2.2.RELEASE"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ypava/Downloads/spring-core-3.1.1.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JDBC"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/AOPJARS"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Logging"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SpringJarz"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
