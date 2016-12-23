@@ -49,7 +49,7 @@ public class LoginServlet extends HttpServlet {
 		String passWord = request.getParameter("pword");
 		
 		try{
-			PreparedStatement ps = con.prepareStatement("select * from employee where username=? and password=?");
+			PreparedStatement ps = con.prepareStatement("select * from loginz where username=? and password=?");
 			ps.setString(1, userName);
 			ps.setString(2, passWord);
 			System.out.println("Trying to login...");
